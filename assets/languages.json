@@ -1,0 +1,13 @@
+{
+  "title": "Language Stack",
+  "subtitle": "comfort level",
+  "_comment": "PLACEHOLDER values - adjust to taste (0-100). On push, the Action redraws assets/radar-langs-*.svg.",
+  "axes": [
+    { "label": "Java",       "value": 80 },
+    { "label": "Python",     "value": 76 },
+    { "label": "SQL",        "value": 72 },
+    { "label": "JavaScript", "value": 62 },
+    { "label": "HTML / CSS", "value": 65 },
+    { "label": "Jupyter",    "value": 74 }
+  ]
+}

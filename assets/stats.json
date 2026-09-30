@@ -1,0 +1,25 @@
+{
+  "_comment": "Starter snapshot from the public profile page. The GitHub Action overwrites this with live API data on the first push.",
+  "user": "seifeddine2003",
+  "name": "seifeddine ben yaala",
+  "public_repos": 6,
+  "followers": 1,
+  "stars": null,
+  "forks": null,
+  "contributions": null,
+  "commits": null,
+  "pull_requests": null,
+  "languages": {
+    "Java": 2,
+    "JavaScript": 1,
+    "Jupyter Notebook": 1
+  },
+  "languages_basis": "repos",
+  "repos": {
+    "fake_news_detection": {"description": "", "language": "Jupyter Notebook", "stars": null, "forks": null, "fork": false},
+    "Waschsalon": {"description": "", "language": "Java", "stars": null, "forks": null, "fork": false},
+    "SpringShopAnalytics": {"description": "", "language": "Java", "stars": null, "forks": null, "fork": false},
+    "Fitness-website": {"description": "", "language": "JavaScript", "stars": null, "forks": null, "fork": false}
+  },
+  "updated": "2026-09-30"
+}

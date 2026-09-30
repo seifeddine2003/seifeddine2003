@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="150" viewBox="0 0 400 150" role="img" aria-label="fake_news_detection repository card">
+<style>.f{opacity:0;animation:f .6s ease-out forwards}@keyframes f{to{opacity:1}}@media (prefers-reduced-motion: reduce){.f{animation:none;opacity:1}}</style>
+<rect x=".5" y=".5" width="399" height="149" rx="12" fill="#0D1628" stroke="#25344C"/>
+<text x="20" y="32" fill="#AA9BEF" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="13" font-weight="600">fake_news_detection</text>
+<text x="380" y="32" text-anchor="end" fill="#8291A8" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="11">repo</text>
+<text x="20" y="58" fill="#8291A8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5"><tspan x="20" dy="0">Comparative study of five NLP models for fake news</tspan><tspan x="20" dy="17">detection: TF-IDF baselines vs frozen and fine-tuned</tspan><tspan x="20" dy="17">BERT / DistilBERT. Best: 98.63% accuracy with fine-</tspan><tspan x="20" dy="17">tuned DistilBERT on 8,101 test articles.</tspan></text><circle cx="25" cy="128" r="5" fill="#DA5B0B"/><text x="36" y="132" fill="#DDE7F5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12">Jupyter Notebook</text>
+</svg>

@@ -1,0 +1,24 @@
+{
+  "_comment": "Everything the banner shows. Edit freely; the Action redraws assets/banner-*.svg on push. Keys with a dot (Core.Lang) are shown in cyan, plain keys in the accent colour.",
+  "name": "Seifeddine Ben Yaala",
+  "handle": "seifeddine2003",
+  "initials": "SB",
+  "location": "📍 Düsseldorf, Germany",
+  "prompt": "git commit -m \"keep learning\"",
+  "rows": [
+    ["Subject",        "Seifeddine Ben Yaala"],
+    ["Role",           "Computer Science Student"],
+    ["Base",           "Düsseldorf, Germany"],
+    ["Focus",          "Backend · Machine Learning · NLP"],
+    ["Status",         "Learning + Building + Shipping"],
+    ["Core.Lang",      "Java · Python · JavaScript · SQL"],
+    ["Core.Backend",   "Spring Boot · REST APIs"],
+    ["Core.Data",      "MySQL · SQL views · pandas"],
+    ["Core.ML",        "TF-IDF · BERT · DistilBERT"],
+    ["Core.Frontend",  "HTML · CSS · JavaScript"],
+    ["ToolChain",      "IntelliJ · VS Code · Jupyter · Git"],
+    ["Grid.GitHub",    "seifeddine2003"],
+    ["Grid.LinkedIn",  "—"],
+    ["Grid.Mail",      "—"]
+  ]
+}
