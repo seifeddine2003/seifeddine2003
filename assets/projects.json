@@ -3,15 +3,15 @@
   "projects": [
     {
       "repo": "fake_news_detection",
-      "description": "Comparative study of five NLP models for fake news detection: TF-IDF baselines vs frozen and fine-tuned BERT / DistilBERT. Best: 98.63% accuracy with fine-tuned DistilBERT on 8,101 test articles."
+      "description": "Five NLP models compared for fake news detection (TF-IDF, BERT, DistilBERT; PyTorch + HuggingFace). Best: 98.63% accuracy with fine-tuned DistilBERT on 8,101 test articles."
     },
     {
       "repo": "Waschsalon",
-      "description": "Spring Boot app for booking washing machines in a student residence: see free machines and time slots, create and manage reservations."
+      "description": "Full-stack laundry booking system for a student residence (Spring Boot, React, MySQL): login, live machine status and time-slot reservations."
     },
     {
       "repo": "SpringShopAnalytics",
-      "description": "Spring Boot backend on MySQL with REST APIs for customers, employees, orders and products, plus SQL views for reporting."
+      "description": "Spring Boot backend on MySQL (JPA/JDBC) with REST APIs for customers, employees, orders and products, plus SQL views for reporting."
     },
     {
       "repo": "Fitness-website",

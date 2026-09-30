@@ -103,13 +103,13 @@ def terminal(theme: dict) -> str:
     rows = PROFILE["rows"]
     out = []
     x0 = TX + 22
-    y = TY + 80
+    y = TY + 76
     out.append(
         f'<text x="{x0}" y="{TY + 50}" class="t mono" font-size="14">'
         f'<tspan fill="{theme["ok"]}">➜</tspan> <tspan fill="{theme["accent2"]}">~</tspan>'
         f' <tspan fill="{theme["text"]}">./{esc(PROFILE["handle"])}.sh --whoami</tspan></text>'
     )
-    line_h = 26
+    line_h = 25
     start = 0.9
     for i, (key, val) in enumerate(rows):
         yy = y + i * line_h

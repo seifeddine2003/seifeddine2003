@@ -4,21 +4,63 @@
   "handle": "seifeddine2003",
   "initials": "SB",
   "location": "📍 Düsseldorf, Germany",
-  "prompt": "git commit -m \"keep learning\"",
+  "prompt": "git commit -m \"keep shipping\"",
   "rows": [
-    ["Subject",        "Seifeddine Ben Yaala"],
-    ["Role",           "Computer Science Student"],
-    ["Base",           "Düsseldorf, Germany"],
-    ["Focus",          "Backend · Machine Learning · NLP"],
-    ["Status",         "Learning + Building + Shipping"],
-    ["Core.Lang",      "Java · Python · JavaScript · SQL"],
-    ["Core.Backend",   "Spring Boot · REST APIs"],
-    ["Core.Data",      "MySQL · SQL views · pandas"],
-    ["Core.ML",        "TF-IDF · BERT · DistilBERT"],
-    ["Core.Frontend",  "HTML · CSS · JavaScript"],
-    ["ToolChain",      "IntelliJ · VS Code · Jupyter · Git"],
-    ["Grid.GitHub",    "seifeddine2003"],
-    ["Grid.LinkedIn",  "—"],
-    ["Grid.Mail",      "—"]
+    [
+      "Subject",
+      "Seifeddine Ben Yaala"
+    ],
+    [
+      "Role",
+      "B.Sc. Informatik · HHU Düsseldorf"
+    ],
+    [
+      "Work",
+      "Werkstudent Data Migration · Stepstone"
+    ],
+    [
+      "Base",
+      "Düsseldorf, Germany"
+    ],
+    [
+      "Focus",
+      "Backend · Full-Stack · NLP"
+    ],
+    [
+      "Core.Lang",
+      "Java · Python · JavaScript · C"
+    ],
+    [
+      "Core.Backend",
+      "Spring Boot · Node.js · REST APIs"
+    ],
+    [
+      "Core.Frontend",
+      "React · HTML · CSS"
+    ],
+    [
+      "Core.Data",
+      "MySQL · PostgreSQL · JPA/JDBC"
+    ],
+    [
+      "Core.ML",
+      "PyTorch · HF Transformers · sklearn"
+    ],
+    [
+      "ToolChain",
+      "Git · Docker · Gradle · n8n"
+    ],
+    [
+      "Speaks",
+      "Arabic · Deutsch · English · Français"
+    ],
+    [
+      "Offline",
+      "Football · Boxing · Running · Music"
+    ],
+    [
+      "Grid.GitHub",
+      "seifeddine2003"
+    ]
   ]
 }

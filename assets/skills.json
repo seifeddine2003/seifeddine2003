@@ -3,12 +3,33 @@
   "subtitle": "self-rated · 0-100",
   "_comment": "PLACEHOLDER values - rate yourself honestly (0-100). On push, the Action redraws assets/radar-*.svg.",
   "axes": [
-    { "label": "Java / OOP",         "value": 78 },
-    { "label": "Spring Boot",        "value": 70 },
-    { "label": "SQL / MySQL",        "value": 72 },
-    { "label": "Python",             "value": 75 },
-    { "label": "Machine Learning",   "value": 66 },
-    { "label": "NLP / Transformers", "value": 68 },
-    { "label": "Web (HTML/CSS/JS)",  "value": 62 }
+    {
+      "label": "Java / OOP",
+      "value": 80
+    },
+    {
+      "label": "Spring Boot",
+      "value": 75
+    },
+    {
+      "label": "SQL / Databases",
+      "value": 75
+    },
+    {
+      "label": "Python",
+      "value": 75
+    },
+    {
+      "label": "NLP / Transformers",
+      "value": 70
+    },
+    {
+      "label": "React / Frontend",
+      "value": 62
+    },
+    {
+      "label": "Data Quality",
+      "value": 78
+    }
   ]
 }
