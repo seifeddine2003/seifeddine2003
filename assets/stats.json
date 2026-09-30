@@ -9,7 +9,7 @@
   "commits": 69,
   "pull_requests": 2,
   "languages": {
-    "Python": 9109,
+    "Python": 34892,
     "Jupyter Notebook": 701745,
     "Java": 132581,
     "PLpgSQL": 15582,
@@ -36,7 +36,7 @@
     },
     "seifeddine2003": {
       "description": "",
-      "language": null,
+      "language": "Python",
       "stars": 0,
       "forks": 0,
       "fork": false
