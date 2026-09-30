@@ -1,25 +1,67 @@
 {
-  "_comment": "Starter snapshot from the public profile page. The GitHub Action overwrites this with live API data on the first push.",
   "user": "seifeddine2003",
   "name": "seifeddine ben yaala",
   "public_repos": 6,
   "followers": 1,
-  "stars": null,
-  "forks": null,
-  "contributions": null,
-  "commits": null,
-  "pull_requests": null,
+  "stars": 0,
+  "forks": 0,
+  "contributions": 77,
+  "commits": 69,
+  "pull_requests": 2,
   "languages": {
-    "Java": 2,
-    "JavaScript": 1,
-    "Jupyter Notebook": 1
+    "Python": 9109,
+    "Jupyter Notebook": 701745,
+    "Java": 132581,
+    "PLpgSQL": 15582,
+    "JavaScript": 34236,
+    "CSS": 17527,
+    "HTML": 446,
+    "Dockerfile": 258
   },
-  "languages_basis": "repos",
+  "languages_basis": "bytes",
   "repos": {
-    "fake_news_detection": {"description": "", "language": "Jupyter Notebook", "stars": null, "forks": null, "fork": false},
-    "Waschsalon": {"description": "", "language": "Java", "stars": null, "forks": null, "fork": false},
-    "SpringShopAnalytics": {"description": "", "language": "Java", "stars": null, "forks": null, "fork": false},
-    "Fitness-website": {"description": "", "language": "JavaScript", "stars": null, "forks": null, "fork": false}
+    "CageSense": {
+      "description": "Predicts MMA fight outcomes round-by-round using engineered fighter statistics and explains the \"why\" behind each prediction with a RAG-powered assistant.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "fork": false
+    },
+    "fake_news_detection": {
+      "description": "Fake news detection: comparative study of five NLP models (TF-IDF, DistilBERT, BERT — frozen vs fine-tuned). Best result: 98.63% accuracy with fine-tuned DistilBERT on 8,101 test articles.",
+      "language": "Jupyter Notebook",
+      "stars": 0,
+      "forks": 0,
+      "fork": false
+    },
+    "seifeddine2003": {
+      "description": "",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "fork": false
+    },
+    "SentinelML-SIEM-ML-detection-clean-and-memorable": {
+      "description": "Detecting network threats by combining Wazuh, Suricata, and machine learning in a fully virtualized, reproducible security lab.",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "fork": false
+    },
+    "SpringShopAnalytics": {
+      "description": "This Spring Boot backend connects to a MySQL database, providing RESTful APIs to manage shop data (customers, employees, orders, products) and uses SQL views for reporting. It demonstrates how Spring Boot integrates with a relational database via JDBC/JPA to expose data through HTTP endpoints.",
+      "language": "Java",
+      "stars": 0,
+      "forks": 0,
+      "fork": false
+    },
+    "Waschsalon": {
+      "description": "A Spring Boot application for managing washing machine reservations in a student environment. The system allows students to view available machines and time slots, create and manage reservations, and ensures that double bookings are prevented.",
+      "language": "Java",
+      "stars": 0,
+      "forks": 0,
+      "fork": false
+    }
   },
   "updated": "2026-09-30"
 }
