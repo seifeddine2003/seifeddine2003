@@ -16,14 +16,17 @@
 
 <br>
 
-<!-- SOCIALS - add your LinkedIn / e-mail by uncommenting and filling in the lines below -->
-<a href="https://github.com/seifeddine2003"><img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=aa9bef" alt="GitHub"></a>&nbsp;&nbsp;
+<!-- SOCIALS -->
+<a href="mailto:seifeddinebenyaala424@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=aa9bef" alt="Email"></a>&nbsp;&nbsp;
+<!-- TODO: replace YOUR-LINKEDIN with your LinkedIn handle, then delete the comment markers around the next line -->
 <!-- <a href="https://www.linkedin.com/in/YOUR-LINKEDIN/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;&nbsp; -->
-<!-- <a href="mailto:seifeddinebenyaala424@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=aa9bef" alt="Email"></a> -->
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=seifeddine2003&style=flat&color=aa9bef&label=profile+views" alt="profile views">
+<!-- Wrapped in a link so GitHub doesn't turn the badge into a link to the raw image -->
+<a href="https://github.com/seifeddine2003">
+  <img src="https://komarev.com/ghpvc/?username=seifeddine2003&style=flat&color=aa9bef&label=profile+views" alt="profile views">
+</a>
 
 </div>
 
@@ -40,47 +43,15 @@ after starting out in computer engineering at **INSAT** in Tunis 🇹🇳. I lik
 - 💬 Built an **AI chatbot**: JavaScript frontend wired to the OpenAI API through **n8n** workflows.
 - 🌍 Speaks **Arabic, German, English** and some **French**.
 - 🥊 Off the keyboard: football, boxing, running, fitness and music of every genre.
+- 📫 Open to internships and Werkstudent roles in backend / data — reach me by [email](mailto:seifeddinebenyaala424@gmail.com).
 
 <br>
 
 <div align="center">
 
-## my stack`
+## my stack
 
 <img src="https://skillicons.dev/icons?i=java,spring,gradle,python,pytorch,sklearn,c,js,react,nodejs,html,css,mysql,postgres,docker,git,idea&perline=9" alt="tech stack">
-
-</div>
-
----
-
-<div align="center">
-
-## signals
-
-<table>
-<tr>
-<td width="50%" align="center" valign="middle">
-
-<!-- Self-rated skill radar - edit assets/skills.json, the workflow redraws it -->
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/radar-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/radar-light.svg">
-  <img src="assets/radar-dark.svg" width="400" alt="skill radar chart">
-</picture>
-
-</td>
-<td width="50%" align="center" valign="middle">
-
-<!-- Language radar - edit assets/languages.json -->
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/radar-langs-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/radar-langs-light.svg">
-  <img src="assets/radar-langs-dark.svg" width="400" alt="language radar chart">
-</picture>
-
-</td>
-</tr>
-</table>
 
 </div>
 
@@ -154,6 +125,15 @@ after starting out in computer engineering at **INSAT** in Tunis 🇹🇳. I lik
   <source media="(prefers-color-scheme: dark)"  srcset="assets/card-langs-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/card-langs-light.svg">
   <img src="assets/card-langs-dark.svg" width="480" alt="most used languages">
+</picture>
+
+<br>
+
+<!-- Spoken languages radar - edit assets/languages.json -->
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/radar-langs-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/radar-langs-light.svg">
+  <img src="assets/radar-langs-dark.svg" width="400" alt="spoken languages radar chart">
 </picture>
 
 </div>
