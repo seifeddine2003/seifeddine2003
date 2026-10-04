@@ -11,7 +11,7 @@
 
 <!-- NAME / TAGLINE - animated typing -->
 <a href="https://github.com/seifeddine2003">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=AA9BEF&center=true&vCenter=true&width=880&lines=Seifeddine+-+Computer+Science+Student+%40+HHU;Werkstudent+Data+Migration+%40+Stepstone;Spring+Boot+%2F+React+%2F+NLP" alt="typing banner">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=AA9BEF&center=true&vCenter=true&width=880&lines=Seifeddine+-+Computer+Science+Student+%40+HHU;Working+Student+-+Data+Migration+%40+Stepstone;Spring+Boot+%2F+React+%2F+NLP" alt="typing banner">
 </a>
 
 <br>
@@ -20,7 +20,11 @@
 <a href="mailto:seifeddinebenyaala424@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=aa9bef" alt="Email"></a>&nbsp;&nbsp;
 <!-- TODO: replace YOUR-LINKEDIN with your LinkedIn handle, then delete the comment markers around the next line -->
 <!-- <a href="https://www.linkedin.com/in/YOUR-LINKEDIN/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;&nbsp; -->
+
+<br>
+
 <sub>📫 seifeddinebenyaala424@gmail.com</sub>
+
 <br>
 
 <!-- Wrapped in a link so GitHub doesn't turn the badge into a link to the raw image -->
@@ -34,16 +38,16 @@
 
 ## whoami
 
-Hi, I'm **Seifeddine**, a Computer Science student at **Heinrich-Heine-Universität Düsseldorf** 🇩🇪 (B.Sc. Informatik, since 2024),
+Hi, I'm **Seifeddine**, a Computer Science student at **Heinrich Heine University Düsseldorf** 🇩🇪 (B.Sc. Computer Science, since 2024),
 after starting out in computer engineering at **INSAT** in Tunis 🇹🇳. I like building solid backends and teaching machines to read between the lines.
 
-- 💼 **Werkstudent - Data Migration Analyst at [Stepstone](https://www.stepstone.de)** (since March 2026): reconciling customer data across systems, fixing broken records and keeping data quality high.
+- 💼 **Working Student – Data Migration Analyst at [Stepstone](https://www.stepstone.de)** (since March 2026): reconciling customer data across systems, fixing broken records and keeping data quality high.
 - ☕ **Full-stack with Java & Spring Boot + React**: a laundry booking system for my student residence with auth, live machine status and slot booking ([Waschsalon](https://github.com/seifeddine2003/Waschsalon)), and a REST + MySQL backend ([SpringShopAnalytics](https://github.com/seifeddine2003/SpringShopAnalytics)).
 - 🤖 **NLP with PyTorch & HuggingFace**: compared five models for [fake news detection](https://github.com/seifeddine2003/fake_news_detection), reaching **98.63% accuracy** with fine-tuned DistilBERT.
 - 💬 Built an **AI chatbot**: JavaScript frontend wired to the OpenAI API through **n8n** workflows.
 - 🌍 Speaks **Arabic, German, English** and some **French**.
 - 🥊 Off the keyboard: football, boxing, running, fitness and music of every genre.
-- 📫 Open to internships and Werkstudent roles in backend / data — reach me by [email](mailto:seifeddinebenyaala424@gmail.com).
+- 📫 Open to internships and working student roles in backend / data — reach me by [email](mailto:seifeddinebenyaala424@gmail.com).
 
 <br>
 
@@ -127,14 +131,6 @@ after starting out in computer engineering at **INSAT** in Tunis 🇹🇳. I lik
   <img src="assets/card-langs-dark.svg" width="480" alt="most used languages">
 </picture>
 
-<br>
-
-<!-- Spoken languages radar - edit assets/languages.json -->
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/radar-langs-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/radar-langs-light.svg">
-  <img src="assets/radar-langs-dark.svg" width="400" alt="spoken languages radar chart">
-</picture>
 
 </div>
 
