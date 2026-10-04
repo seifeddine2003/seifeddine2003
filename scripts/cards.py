@@ -16,6 +16,7 @@ import argparse
 import json
 import os
 import textwrap
+import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -46,6 +47,27 @@ def _req(url: str, token: str | None, body: dict | None = None):
         return json.loads(r.read())
 
 
+def notebook_code_bytes(repo: dict, token: str | None) -> int | None:
+    """Size of the source in code cells across a repo's notebooks, or None if unreadable."""
+    try:
+        branch = repo["default_branch"]
+        tree = _req(f"{API}/repos/{repo['full_name']}/git/trees/{branch}?recursive=1", token)
+        total = 0
+        for item in tree.get("tree", []):
+            if item["type"] != "blob" or not item["path"].endswith(".ipynb"):
+                continue
+            url = f"https://raw.githubusercontent.com/{repo['full_name']}/{branch}/{urllib.parse.quote(item['path'])}"
+            nb = _req(url, token)
+            for cell in nb.get("cells", []):
+                if cell.get("cell_type") == "code":
+                    src = cell.get("source", "")
+                    total += len(("".join(src) if isinstance(src, list) else src).encode("utf-8"))
+        return total
+    except Exception as e:
+        print(f"  notebook code size for {repo['name']} failed, using GitHub's figure: {e}")
+        return None
+
+
 def fetch(user: str, token: str | None) -> dict:
     u = _req(f"{API}/users/{user}", token)
     repos = []
@@ -59,9 +81,17 @@ def fetch(user: str, token: str | None) -> dict:
 
     own = [r for r in repos if not r["fork"]]
     langs: dict[str, int] = {}
-    for r in own:
+    # The profile repo only holds the scripts that draw these cards, not project work.
+    for r in (r for r in own if r["name"].lower() != user.lower()):
         try:
-            for lang, size in _req(r["languages_url"], token).items():
+            repo_langs = _req(r["languages_url"], token)
+            if "Jupyter Notebook" in repo_langs:
+                # GitHub counts the whole .ipynb file, saved plots and logs included,
+                # which can be 30x the actual code. Count only the code cells.
+                code = notebook_code_bytes(r, token)
+                if code is not None:
+                    repo_langs["Jupyter Notebook"] = code
+            for lang, size in repo_langs.items():
                 langs[lang] = langs.get(lang, 0) + size
         except Exception as e:  # one repo failing shouldn't kill the card
             print(f"  languages for {r['name']} failed: {e}")
