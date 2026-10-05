@@ -3,33 +3,32 @@
   "name": "seifeddine ben yaala",
   "public_repos": 6,
   "followers": 2,
-  "stars": 0,
+  "stars": 3,
   "forks": 0,
-  "contributions": 87,
-  "commits": 79,
+  "contributions": 104,
+  "commits": 97,
   "pull_requests": 2,
   "languages": {
-    "Python": 9109,
     "Jupyter Notebook": 19634,
+    "JavaScript": 43057,
+    "CSS": 25566,
+    "HTML": 4594,
     "Java": 132918,
     "PLpgSQL": 15582,
-    "JavaScript": 35752,
-    "CSS": 18628,
-    "HTML": 446,
     "Dockerfile": 258
   },
   "languages_basis": "bytes",
   "repos": {
-    "CageSense": {
-      "description": "Predicts MMA fight outcomes round-by-round using engineered fighter statistics and explains the \"why\" behind each prediction with a RAG-powered assistant.",
-      "language": "Python",
+    "fake_news_detection": {
+      "description": "Fake news detection: comparative study of five NLP models (TF-IDF, DistilBERT, BERT — frozen vs fine-tuned). Best result: 98.63% accuracy with fine-tuned DistilBERT on 8,101 test articles.",
+      "language": "Jupyter Notebook",
       "stars": 0,
       "forks": 0,
       "fork": false
     },
-    "fake_news_detection": {
-      "description": "Fake news detection: comparative study of five NLP models (TF-IDF, DistilBERT, BERT — frozen vs fine-tuned). Best result: 98.63% accuracy with fine-tuned DistilBERT on 8,101 test articles.",
-      "language": "Jupyter Notebook",
+    "Fitness-website": {
+      "description": "",
+      "language": "JavaScript",
       "stars": 0,
       "forks": 0,
       "fork": false
@@ -44,24 +43,24 @@
     "SentinelML-SIEM-ML-detection-clean-and-memorable": {
       "description": "Detecting network threats by combining Wazuh, Suricata, and machine learning in a fully virtualized, reproducible security lab.",
       "language": null,
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "fork": false
     },
     "SpringShopAnalytics": {
       "description": "This Spring Boot backend connects to a MySQL database, providing RESTful APIs to manage shop data (customers, employees, orders, products) and uses SQL views for reporting. It demonstrates how Spring Boot integrates with a relational database via JDBC/JPA to expose data through HTTP endpoints.",
       "language": "Java",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "fork": false
     },
     "Waschsalon": {
       "description": "A Spring Boot application for managing washing machine reservations in a student environment. The system allows students to view available machines and time slots, create and manage reservations, and ensures that double bookings are prevented.",
       "language": "Java",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "fork": false
     }
   },
-  "updated": "2026-10-04"
+  "updated": "2026-10-05"
 }
