@@ -5,16 +5,17 @@
   "followers": 2,
   "stars": 3,
   "forks": 0,
-  "contributions": 93,
-  "commits": 85,
+  "contributions": 94,
+  "commits": 86,
   "pull_requests": 3,
   "languages": {
     "Jupyter Notebook": 19634,
-    "JavaScript": 43057,
-    "CSS": 25566,
-    "HTML": 4594,
-    "Java": 132918,
+    "JavaScript": 99458,
+    "CSS": 32620,
+    "HTML": 4915,
+    "Java": 134055,
     "PLpgSQL": 15582,
+    "Python": 506687,
     "Dockerfile": 258
   },
   "languages_basis": "bytes",
@@ -56,11 +57,11 @@
     },
     "Waschsalon": {
       "description": "A Spring Boot application for managing washing machine reservations in a student environment. The system allows students to view available machines and time slots, create and manage reservations, and ensures that double bookings are prevented.",
-      "language": "Java",
+      "language": "Python",
       "stars": 1,
       "forks": 0,
       "fork": false
     }
   },
-  "updated": "2026-11-08"
+  "updated": "2026-11-09"
 }
